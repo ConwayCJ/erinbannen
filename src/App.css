@@ -1,0 +1,9 @@
+.appWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerWrapper {
+  background-color: rgb(152, 158, 162);
+  padding: 1.5em;
+}

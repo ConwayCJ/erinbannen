@@ -1,0 +1,52 @@
+.stakeholderWrapper {
+  height: max-content;
+}
+
+.bgImage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://images.squarespace-cdn.com/content/v1/62cdde7236417d26f3ef8659/5eb91321-94d0-49ce-9001-a8dbf2b3a74f/coffee+cups.jpg?format=750w');
+  height: 550px;
+  filter: blur(5px);
+  padding: 5px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgText {
+  color: white;
+  font-weight: bolder;
+  text-shadow: 2px 2px black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: left;
+}
+
+.bgText p {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.bgText ul {
+  list-style-type: none;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.bgText ul li {
+  margin-bottom: 10px;
+}
+
+h6 {
+  font-size: x-large;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 15px;
+}

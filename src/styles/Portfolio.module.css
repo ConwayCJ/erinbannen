@@ -1,0 +1,145 @@
+.portfolioWrapper {
+  width: 100vw;
+  height: max-content;
+  width: 100%;
+}
+
+.imageAndText {
+  margin-top: 3em;
+}
+
+/* --- DESKTOP QUERY --- */
+@media only screen and (min-width: 768px) {
+  /* -- ABOUT ME -- TITLED: ABILITY */
+  .imageAndText {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5vw;
+    margin-top: 5vh;
+  }
+
+  .imageAndText div {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imageAndText h1 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-weight: 900;
+    font-size: 24px;
+    font-family: Roboto;
+    letter-spacing: 3px;
+  }
+
+  .aboutMeImage {
+    max-height: 275px;
+    align-self: center;
+  }
+
+  .aboutMeButton {
+    margin-top: 1em;
+  }
+
+  /* ABOUT ABILITY // EXPERIENCE */
+
+  .aboutAbility {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 5vh;
+  }
+
+  .aboutAbilityImage {
+    max-height: 275px;
+    align-self: center;
+  }
+
+  .aboutAbilityText {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 50vw;
+    margin: 0 auto;
+    letter-spacing: 1px;
+  }
+
+  .aboutAbilityText h1 {
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    font-weight: 900;
+    font-size: 24px;
+    text-align: center;
+    font-family: Roboto;
+    letter-spacing: 3px;
+  }
+
+  .aboutAbilityText p {
+    margin-bottom: 2em;
+  }
+}
+
+/* --- MOBILE QUERY ABOUT ME SECTION --- */
+@media only screen and (max-width: 1025px) {
+  /* --- ABOUT ME " ABILITY " TITLE */
+  .aboutMe {
+    padding: 1em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .aboutMe h1 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-weight: 900;
+    font-size: 24px;
+    text-align: center;
+    font-family: Roboto;
+    letter-spacing: 3px;
+  }
+
+  .aboutMeImage {
+    max-height: 250px;
+  }
+
+  /* ABOUT ABILITY // EXPERIENCE */
+  .aboutAbility {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+  }
+
+  .aboutAbilityText {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1em;
+  }
+
+  .aboutAbilityText h1 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-weight: 900;
+    font-size: 24px;
+    text-align: center;
+    font-family: Roboto;
+    letter-spacing: 3px;
+  }
+
+  .aboutAbilityText p {
+    margin-bottom: 1em;
+  }
+
+  .aboutAbilityImage {
+    max-height: 250px;
+    width: auto;
+  }
+}

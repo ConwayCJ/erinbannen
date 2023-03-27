@@ -1,0 +1,20 @@
+.footerWrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px;
+  border-top: 3px solid rgba(64, 55, 181, 0.52);
+  background-color: rgb(11, 9, 35);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.footerWrapper section {
+}
+
+.footerWrapper form div {
+  margin-bottom: 10px;
+}

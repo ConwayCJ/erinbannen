@@ -1,0 +1,30 @@
+.projectsWrapper {
+  height: max-content;
+  margin-top: 10%;
+  width: 100%;
+}
+
+.cardImage:hover {
+  transform: scale(1.05);
+  transform-origin: 50% 50%;
+  transition: all ease 1s;
+  filter: blur(5px);
+}
+
+.cardsButton {
+  margin-top: 1em;
+}
+
+.cardsButton:hover {
+  transform: scale(1.15);
+  transition: all ease-in-out 0.2s;
+}
+
+.cardsContainer {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}

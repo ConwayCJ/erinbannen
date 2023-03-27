@@ -1,0 +1,50 @@
+.pageWrapper {
+  background-image: url(../images/milwaukeeBanner1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+}
+
+.hero {
+  margin-top: 10vh;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 0.2em;
+}
+
+.hero h2 {
+  font-size: x-large;
+}
+
+.headShotContainer {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+
+.aside {
+  background-color: #eeeeee;
+  margin: 0 auto;
+}
+
+.headShotImg {
+  border-width: 5px;
+  border-color: #eeeeee;
+  border-style: groove;
+  padding: 5px;
+  background-color: #eeeeee;
+  box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.394);
+}
+
+.aside h4 {
+  color: black;
+  font-size: 16px;
+}

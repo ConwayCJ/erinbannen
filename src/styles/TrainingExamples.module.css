@@ -1,0 +1,55 @@
+.trainingWrapper {
+  height: max-content;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trainingWrapper h1 {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 1em;
+}
+
+.trainingWrapper h2 {
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.trainingWrapper section {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.carouselContainer {
+  height: 800px;
+  width: 800px;
+}
+
+.videoContainer {
+  width: max-content;
+  margin-top: 2em;
+}
+
+.videoContainer h1 {
+  text-align: center;
+  margin-top: 1em;
+  padding-top: 1em;
+  margin-bottom: 1em;
+  border-top: 1px solid black;
+}
+
+.videoContainer h2 {
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+
+.presentationContainer {
+  text-align: center;
+}

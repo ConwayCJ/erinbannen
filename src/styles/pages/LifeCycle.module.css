@@ -1,0 +1,43 @@
+.lifeCycleWrapper {
+  height: max-content;
+}
+
+.bgImage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://images.squarespace-cdn.com/content/v1/62cdde7236417d26f3ef8659/1658103903771-9NXW71F1AYGIO86KST56/image-asset.jpeg?format=300w');
+  height: 200px;
+  filter: blur(5px);
+  padding: 5px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgText {
+  color: white;
+  font-weight: bolder;
+  text-shadow: 2px 2px black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: left;
+}
+
+.bgText p {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.bgText ul {
+  list-style-type: decimal;
+}
+
+.bgText ul li {
+  margin-top: 4px;
+}
