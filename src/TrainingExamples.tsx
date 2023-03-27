@@ -2,7 +2,8 @@ import React from 'react'
 import styles from './styles/TrainingExamples.module.css'
 import { useState } from 'react';
 import YouTubeEmbed from './pages/YouTubeEmbed'
-import { ButtonGroup, Carousel, Button, ToggleButton } from 'react-bootstrap';
+import { ButtonGroup, ToggleButton } from 'react-bootstrap';
+import { Transition } from '@headlessui/react';
 
 export default function TrainingExamples() {
   const [radioValue, setRadioValue] = useState('1');
@@ -44,6 +45,7 @@ export default function TrainingExamples() {
       </div>
 
       <div className={styles.videoContainer}>
+
         {radioValue === "1" ? (
           <>
             <h1>Canvas Course Tour</h1>
@@ -56,6 +58,7 @@ export default function TrainingExamples() {
           </>
         ) : radioValue === "2" ? (
           <>
+
             <h1>Rise Course Design Tour:</h1>
             <h2>Responding to Customer Feedback</h2>
             <section>
@@ -67,6 +70,7 @@ export default function TrainingExamples() {
           </>
         ) : radioValue === "3" ? (
           <div className={styles.presentationContainer}>
+
             <h1>Leading Stakeholder Interviews</h1>
             <section>
               This <a target="_blank" href="https://docs.google.com/presentation/d/1gn5RFKfMs0vT-UB1DPldJg-YtBbl5fqj/edit#slide=id.p1">Powerpoint Presentation</a> is an example of a training
@@ -86,6 +90,6 @@ export default function TrainingExamples() {
 
 
 
-    </div>
+    </div >
   )
 }
